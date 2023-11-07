@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-50 bg-center min-h-screen">
     <Navbar />
-    <div class="w-full text-center text-white pt-16">
+    <div class="w-full text-center pt-16 p-8">
       <div class="flex flex-col justify-center items-center">
         <!-- Center the images and align them vertically -->
         <div v-for="photo in photos" :key="photo.id" class="mb-6">
@@ -12,8 +12,10 @@
           />
 
           <p class="text-gray-500 pt-10">
-            Published At: {{ formatDate(photo.created_at) }}
+            Photographer: {{ photo.user.username }}, Published At:
+            {{ formatDate(photo.created_at) }}
           </p>
+
           <hr class="my-12 border-t border-gray-300" />
         </div>
       </div>
