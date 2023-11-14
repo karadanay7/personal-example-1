@@ -7,7 +7,7 @@
     <div class="w-full text-center text-white overflow-hidden mx-auto">
       <div>
         <h1
-          class="font-mono pt-12 text-3xl md:text-5xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]"
+          class="font-mono pt-44 md:pt-12 text-3xl md:text-5xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]"
         >
           Capturing Moments in Every Frame
         </h1>
@@ -26,7 +26,7 @@
       </NuxtLink>
 
       <!-- Collections Section -->
-      <div class="p-8 pt-32">
+      <div class="p-8 md:pt-32 pt-8">
         <!-- Collection Grid -->
 
         <div

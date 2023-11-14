@@ -5,7 +5,7 @@
   >
     <Navbar />
     <div class="w-full min-h-screen text-white overflow-hidden mx-auto">
-      <div class="grid md:grid-cols-2 grid-cols-1 p-8">
+      <div class="grid md:grid-cols-2 grid-cols-1 p-8 pt-32 md:pt-8">
         <div class="">
           <h1
             class="font-mono pt-12 text-3xl md:text-5xl [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]"

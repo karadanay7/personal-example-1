@@ -1,7 +1,7 @@
 <template>
   <div class="bg-stone-100 bg-center min-h-screen">
     <Navbar />
-    <div class="w-full text-center pt-16 p-8">
+    <div class="w-full text-center pt-44 md:pt-16 p-8">
       <div class="flex flex-col justify-center items-center">
         <!-- Center the images and align them vertically -->
         <div v-for="photo in photos" :key="photo.id" class="mb-6">
