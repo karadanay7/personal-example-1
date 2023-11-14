@@ -56,7 +56,7 @@
         </div>
       </div>
 
-      <!-- Discover More Section -->
+      <Footer />
     </div>
   </div>
 </template>

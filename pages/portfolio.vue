@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50 bg-center min-h-screen">
+  <div class="bg-stone-100 bg-center min-h-screen">
     <Navbar />
     <div class="w-full text-center pt-16 p-8">
       <div class="flex flex-col justify-center items-center">
@@ -20,6 +20,7 @@
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 

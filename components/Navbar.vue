@@ -9,7 +9,7 @@
             src="/icologo.png"
             alt="Logo"
             format="webp"
-            class="h-6 sm:h-12 md:h-18"
+            class="h-6 sm:h-12 md:h-18 pr-4"
             sizes="sm:100vw md:100vw lg:400px"
           />
         </nuxt-link>
@@ -38,12 +38,12 @@
           >
         </li>
         <li class="hover:scale-110">
-          <nuxt-link to="/projects" class="pl-4 sm:pl-8 md:pl-12 lg:pl-16"
+          <nuxt-link to="/about" class="pl-4 sm:pl-8 md:pl-12 lg:pl-16"
             >About</nuxt-link
           >
         </li>
         <li class="hover:scale-110">
-          <nuxt-link to="/blog" class="pl-4 sm:pl-8 md:pl-12 lg:pl-16"
+          <nuxt-link to="/contact" class="pl-4 sm:pl-8 md:pl-12 lg:pl-16"
             >Contact</nuxt-link
           >
         </li>
@@ -51,7 +51,7 @@
     </div>
     <ul
       v-if="isMenuOpen"
-      class="block md:hidden mt-56 absolute z-10 m-auto right-0 left-0 w-2/4 right-0 bg-transparent border rounded-lg text-center font-mono"
+      class="block md:hidden mt-56 absolute z-10 m-auto left-0 w-2/4 right-0 bg-transparent border rounded-lg text-center font-mono"
     >
       <li>
         <nuxt-link
@@ -63,24 +63,24 @@
       </li>
       <li>
         <nuxt-link
+          to="/portfolio"
+          class="block py-2 px-4 text-black pl-8 hover:text-gray-900 hover:scale-110"
+          >Portfolio</nuxt-link
+        >
+      </li>
+      <li>
+        <nuxt-link
           to="/about"
           class="block py-2 px-4 text-black pl-8 hover:text-gray-900 hover:scale-110"
+          aria-current="page"
           >About</nuxt-link
         >
       </li>
       <li>
         <nuxt-link
-          to="/projects"
+          to="/contact"
           class="block py-2 px-4 text-black pl-8 hover:text-gray-900 hover:scale-110"
-          >Projects</nuxt-link
-        >
-      </li>
-      <li>
-        <nuxt-link
-          to="/blog"
-          class="block py-2 px-4 text-black pl-8 hover:text-gray-900 hover:scale-110"
-          aria-current="page"
-          >Blog</nuxt-link
+          >Contact</nuxt-link
         >
       </li>
     </ul>

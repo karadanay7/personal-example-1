@@ -27,6 +27,23 @@ module.exports = {
       animation: {
         ping: "ping 2s cubic-bezier(0, 0, 0.6, 0.5)  ",
         spin: "spin 1s linear ",
+        slide: "slide 3s linear infinite ",
+      },
+      keyframes: {
+        slide: {
+          "0%, 100%": {
+            "margin-top": "-270px",
+          },
+          "5%, 33%": {
+            "margin-top": "-180px",
+          },
+          "38%, 66%": {
+            "margin-top": "-90px",
+          },
+          "71%, 99.99%": {
+            "margin-top": "0px",
+          },
+        },
       },
     },
   },
